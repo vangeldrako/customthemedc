@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/refs/heads/main/hvaduvil");
-@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/refs/heads/main/3rdthingdontchangefont");
-@import url(https://raw.githubusercontent.com/vangeldrako/discordthemetest/refs/heads/main/4th);
-@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/refs/heads/main/5th");
+@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/main/hvaduvil");
+@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/main/3rdthingdontchangefont");
+@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/main/4th");
+@import url("https://raw.githubusercontent.com/vangeldrako/discordthemetest/main/5th");
 
 :root {
     --app-bg: url(https://i.imgur.com/rZRpRuv.gif);
@@ -68,7 +68,7 @@ body {
 }
 
 .info__2debe::before {
-    content: "Theme by jAba & Eject";
+    content: "Theme by Vangel";
     color: var(--text-muted);
     font-size: 14px;
     padding-bottom: 10px;
@@ -85,7 +85,7 @@ body {
 .callContainer_cb9592,
 .wrapper_cb9592,
 .panels_c48ade,
-.privateChannels__35e6b,
+.privateChannels__35e86,
 .scroller__99e7c,
 .themedBackground__74017,
 .themed__9293f,
@@ -144,12 +144,8 @@ body {
 .ready_a2f514,
 .content_f75fb0:before,
 .container__8279f,
-.footerImage__98b95,
-.tipTitle_a2f514,
-.buttonContainer_e6e74f,
-.statusBubbleOuter_af9888::after,
-.statusBubbleOuter_af9888::before,
-.art_a55fdc {
+.footerImage__98b95,.tipTitle_a2f514,.buttonContainer_e6e74f,.statusBubbleOuter_af9888::after,
+.statusBubbleOuter_af9888::before,.art_a55fdc {
     display: none !important;
 }
 
@@ -178,6 +174,7 @@ body {
     margin-right: 10px;
     margin-top: 10px;
 }
+
 .callContainer_cb9592:has(.actionRow__6981d) {
     margin: 0;
     border-radius: 0;
@@ -267,7 +264,6 @@ body {
 #image-context[class*="menu_c1e9c4"] {
     backdrop-filter: blur(15px) brightness(var(--brightness-bg));
 }
-
 .menu_c1e9c4:not(.menu_ad5fac) .submenu_c1e9c4:before {
     width: calc(100% - 16px);
     left: 8px;
@@ -383,7 +379,6 @@ a.anchor_edefb8 > span:not(.username__703b9) {
 .cardPrimary__73069 {
     background: rgba(100, 100, 100, 0.07);
 }
-
 .container__5dbf8,
 .container__8e680,
 .container__5b321 {
@@ -395,7 +390,6 @@ a.anchor_edefb8 > span:not(.username__703b9) {
     background: rgba(100, 100, 100, 0.15) !important;
     border: 1px solid var(--background-secondary-alt);
 }
-
 .directoryContainer_da3f59 {
     backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
 }
@@ -409,7 +403,6 @@ a.anchor_edefb8 > span:not(.username__703b9) {
 .input__0f084:focus {
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
-
 .bioTextArea__6a919 {
     background: rgba(100, 100, 100, 0.2) !important;
     border: var(--border-main);
@@ -470,7 +463,6 @@ button[class*="lookFilled__201d5"] {
 button[class*="lookFilled__201d5"]:hover {
     background-color: rgba(150, 150, 150, 0.35) !important;
 }
-
 .lookOutlined__201d5.colorRed__201d5 {
     border: var(--border-main);
 }
@@ -599,12 +591,10 @@ button[class*="lookFilled__201d5"]:hover {
 .fileWrapper__0ccae {
     background-color: rgba(100, 100, 100, 0.1) !important;
 }
-
 .upload_aa605f {
     background-color: rgba(100, 100, 100, 0.2) !important;
     border-radius: 10px;
 }
-
 .upperBadge_cc5dd2 > .iconBadge__650eb {
     background-color: transparent !important;
     background-color: rgb(71, 71, 71) !important;
@@ -654,6 +644,7 @@ button[class*="lookFilled__201d5"]:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+
 .tip_a2f514::after {
     animation: slidein 1s;
     content: "Updated: 20.08.2024 ";
@@ -664,10 +655,12 @@ button[class*="lookFilled__201d5"]:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+
 @keyframes slidein {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -847,6 +840,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 .colorDefault_c1e9c4.focused_c1e9c4 {
     background: rgba(255, 255, 255, 0.1);
 }
+
 .colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
     background: rgba(255, 255, 255, 0.15);
 }
@@ -913,7 +907,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 
 #app-mount
     div[class*="controlButton__1405b"]
-    button
+    button[aria-label="Прекратить просмотр"]
     svg
     path {
     fill: rgba(202, 90, 99, 0.9) !important;
@@ -923,7 +917,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
     background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
-#app-mount div > div {
+#app-mount div > div[aria-label="Другие настройки"] {
     background: transparent !important;
     box-shadow: inset 0 0 10px rgb(100, 100, 100, 0.7);
 }
